@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ background: blueviolet;
+}
+.container-fluid{
+    width: 410px;
+    margin: 50px auto;
+    padding: 10px;
+
+}
+.input{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: white;
+}
+.input input[type="text"]{
+    height: 3.5rem;
+    width: 20rem;
+    background: blue;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-right: 4px;
+    padding: 10px;
+
+}
+.input input[type="submit"]{
+    height: 3.2;
+    width: 6.5;
+    background: pink;
+    font-weight: bold;
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px
+}
+.display{
+    text-align: center;
+    width: 400px;
+    color: white;
+}
+.wrapper{
+    margin: 0 9rem;
+    background: pink;
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+.wrapper h2{
+    padding: 5px;
+    background: white;
+    color: pink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.wrapper p{
+    margin: 20px;
+    margin-right: 20px;
+    text-align: left;
+    color: black;
+    font-size: 23px;
+}
+.wrapper p span{
+    color: pink;
+    font-size: 25px;
+}
+.wrapper h2 span{
+    font-size: 26px;
+    color: pink;
+    
+}
